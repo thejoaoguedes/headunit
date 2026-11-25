@@ -19,3 +19,11 @@ Fonte: https://sites.google.com/view/yt5760bac8259. O tópico do XDA, 4171219, b
 - Wi-Fi fica mais rápido com o Bluetooth desligado (interferência).
 
 ## Passo 1 — Conexão ADB (em andamento)
+
+Estado ORIGINAL de Factory Settings → USB Settings (foto de 2026-11-25, 20:07), para reverter:
+- usb port1 protocol: `usb3_0`
+- usb port0 protocol: `usb2_0`
+- usb mode: `host` (marcado)
+- carplay i2c bus: marcado
+- Engineer mode: desmarcado
+- USB0 DVR Enhancement / USB1 DVR Enhancement / QB airplane mode: o estado não aparece na foto
